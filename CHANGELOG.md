@@ -1,5 +1,28 @@
 # Changelog
 
+## 5.3.0 (2025-03-25)
+
+Full Changelog: [v5.2.0...v5.3.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.2.0...v5.3.0)
+
+### Features
+
+* **api:** api update ([#5368](https://github.com/cloudflare/terraform-provider-cloudflare/issues/5368)) ([72d2f1e](https://github.com/cloudflare/terraform-provider-cloudflare/commit/72d2f1e7eea300f2c35558343a49666cb894882f))
+* **api:** api update ([#5372](https://github.com/cloudflare/terraform-provider-cloudflare/issues/5372)) ([b940618](https://github.com/cloudflare/terraform-provider-cloudflare/commit/b940618db1d989b0cc93c9adc631fb772b9b28e1))
+* **api:** api update ([#5375](https://github.com/cloudflare/terraform-provider-cloudflare/issues/5375)) ([a8ea03c](https://github.com/cloudflare/terraform-provider-cloudflare/commit/a8ea03ce65382a0c40ca2a7a3880dc4f32d7b5f3))
+* **api:** api update ([#5384](https://github.com/cloudflare/terraform-provider-cloudflare/issues/5384)) ([d24be4d](https://github.com/cloudflare/terraform-provider-cloudflare/commit/d24be4d0b5fea8d5cfde1eade41e8972ff19a8d0))
+
+
+### Bug Fixes
+
+* add deserialization annotations to synthetic ID properties ([#5376](https://github.com/cloudflare/terraform-provider-cloudflare/issues/5376)) ([754df3f](https://github.com/cloudflare/terraform-provider-cloudflare/commit/754df3fd266522489aa360756cdfc15241bf1c10))
+* **api:** better support for environment variables as provider properties ([#5377](https://github.com/cloudflare/terraform-provider-cloudflare/issues/5377)) ([a6e7785](https://github.com/cloudflare/terraform-provider-cloudflare/commit/a6e7785d9c72e3cbcf8f6b541cbd1963599f8ffa))
+* **ruleset:** handle stricter marshaling ([#5391](https://github.com/cloudflare/terraform-provider-cloudflare/issues/5391)) ([b9f0292](https://github.com/cloudflare/terraform-provider-cloudflare/commit/b9f029266ec814c5bb53794a8c53c3c92929a98f))
+
+
+### Chores
+
+* remove unnecessary `toListParams` methods in singular data sources ([#5371](https://github.com/cloudflare/terraform-provider-cloudflare/issues/5371)) ([495ae4c](https://github.com/cloudflare/terraform-provider-cloudflare/commit/495ae4cbae690b700e5c257880162781e1c66cec))
+
 ## 5.2.0 (2025-03-20)
 
 Full Changelog: [v5.1.0...v5.2.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.1.0...v5.2.0)
